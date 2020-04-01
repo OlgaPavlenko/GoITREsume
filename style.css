@@ -1,0 +1,211 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #595959;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+/*Container*/
+.container{
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+}
+
+/*header*/
+.aside{
+   width: 100%;
+   max-width: 370px;
+   background-color: #1e2939;
+   color: #ffffff;
+}
+
+.header_logo{
+    padding-top: 40px;
+}
+ h3{
+    font-weight: bold;
+    margin: 0;
+    font-size: 22px;
+}
+
+.contacts{
+    padding-left: 40px;
+    padding-top: 56px;
+}
+
+.phone{
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.header_phone{
+    text-decoration: none;
+    color: #a2a4a8;
+}
+
+.mail{
+    padding-top: 12px;
+    font-weight: bold;
+}
+
+.header_mail{
+    color: #a2a4a8;
+}
+
+.skills{
+    padding-left: 40px;
+    margin-top: 56px;
+}
+
+
+ul{
+    padding-left: 16px;
+    margin: 0;
+    padding-top: 8px;
+}
+
+.color{
+    list-style-image: url(img/marker.png);
+    padding-top: 11px;
+    color: #a5a9b0;
+}
+
+
+/*About*/
+
+.info_about{
+    padding-top: 110px;
+    padding-left: 88px;
+    padding-bottom: 109px;
+}
+
+ol{
+    padding-left: 15px;
+}
+
+h2{
+    color: #000;
+    font-size: 14px;
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+h1{
+    color: #000;
+    font-size: 45px;
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+p{
+    color: #595959;
+    margin: 0;
+    line-height: 1.8;
+    text-align: left;
+}
+
+.projects{
+    padding-top: 67px;
+    padding-bottom: 48px;
+}
+
+.projects_head{
+    padding-bottom: 17px;
+}
+
+ol{
+    margin: 0;
+    padding: 0;
+    padding-left: 15px;
+    line-height: 1.8;
+}  
+
+
+.projects_num{
+    font-weight: bold;
+    color: #595959;
+}
+
+.dot{
+   color: #cacaca;
+}
+
+.projects_link{
+    font-weight: normal;
+    color: #6f6f6f;
+    text-decoration: none;
+}
+
+.projects_link:hover{
+    text-decoration: underline;
+}
+
+.projects_tech{
+    font-weight: normal;
+    color: #595959;
+}
+
+h4{
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0;
+    padding-bottom: 17px;
+    padding-top: 17px;
+}
+
+h4 b{
+    color: #ff6b08;
+    
+}
+
+.job{
+    margin: 0;
+    padding-bottom: 31px;
+}
+
+.job span{
+    color: #d6d6d6;
+}
+
+span b {
+    color: #000;
+    font-weight: normal;
+}
+
+.job_content{
+    line-height: 1.8;
+}
+
+.education_head{
+    padding-bottom: 17px;
+}
+
+.education_uni{
+    color: #ff6b08;
+    font-weight: bold;
+    font-size: 16px;
+    padding-bottom: 12px;
+}
+
+.education_spec{
+    font-weight: bold;
+}
+
+.education_data{
+    color: #d6d6d6;
+}
+
+.education_spec{
+    padding-bottom: 10px;
+}
+
+
